@@ -15,9 +15,9 @@ The project uses a microservice architecture. This is to scale the code and keep
 - Microk8s
 
 ### Repositories
-- [Backend](https://github.com/SieBrum/aci-backend)
-- [Frontend](https://github.com/SieBrum/aci-frontend)
-- [Docs](https://github.com/SieBrum/aci-docs)
+- [Backend](https://github.com/ACI-Rental/backend)
+- [Frontend](https://github.com/ACI-Rental/front-end)
+- [Docs](https://github.com/ACI-Rental/docs)
 
 ### Architectural Styles
 * Microservices
@@ -37,4 +37,4 @@ The docs contain information regarding the project and files used. The docs cont
 - Github action example yammels
 
 ## Contributing and getting started
-Please refer to the [CONTRIBUTING.md](https://github.com/SieBrum/aci-docs/blob/main/CONTRIBUTING.md) file for more information
+Please refer to the [CONTRIBUTING.md](https://github.com/ACI-Rental/docs/blob/main/CONTRIBUTING.md) file for more information
