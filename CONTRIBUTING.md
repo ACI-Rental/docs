@@ -94,7 +94,7 @@ Before you submit your pull request consider the following guidelines:
 * After cloning, set a new remote [upstream](https://help.github.com/articles/configuring-a-remote-for-a-fork/) (this helps to keep your fork up to date)
     
     ```shell
-    git remote add upstream https://github.com/SieBrum/[aci-frontend/aci-backend].git
+    git remote add upstream https://github.com/ACI-Rental/[front-end/backend].git
     ```
 
 * Make your changes in a new git branch:
@@ -170,7 +170,7 @@ Start out by cloning the repository:
 Insiders (please refer to [Contributing as an 'insider'](#insider) for more information)
 ```shell
 mkdir ACI && cd ACI
-git clone https://github.com/SieBrum/aci-frontend.git
+git clone https://github.com/ACI-Rental/front-end.git
 ```
 Outsiders (please refer to [Contributing as an 'outsider'](#outsider) for more information):
 ```shell
@@ -190,7 +190,7 @@ Start out by cloning the repository:
 Insiders (please refer to [Contributing as an 'insider'](#outsider) for more information):
 ```shell
 cd ACI
-git clone https://github.com/SieBrum/aci-backend.git
+git clone https://github.com/ACI-Rental/backend.git
 ```
 Outsiders (please refer to [Contributing as an 'outsider'](#outsider) for more information):
 ```shell
@@ -204,7 +204,7 @@ Right click solution -> Startup project -> Mutliple startup projects -> set the 
 ```
    
 ## <a name="format"></a> Coding Format
-Please read our [code conventions](https://github.com/SieBrum/aci-docs/blob/main/CODE_CONVENTIONS.md) to ensure code quality and readability.
+Please read our [code conventions](https://github.com/ACI-Rental/docs/blob/main/CODE_CONVENTIONS.md) to ensure code quality and readability.
 
 ## <a name="moreinfo"></a> More information
 For more information about contribution, design-choices, deployment and code quality, please refer to the folder `docs` in this repository.
