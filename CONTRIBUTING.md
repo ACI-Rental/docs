@@ -71,7 +71,7 @@ If the PR gets too outdated we may ask you to rebase and force push to update th
 
 ```shell
 git fetch upstream
-git rebase upstream/master
+git rebase upstream/dev
 git push origin my-fix-branch -f
 ```
 
@@ -130,7 +130,7 @@ If the PR gets too outdated we may ask you to rebase and force push to update th
 
 ```shell
 git fetch upstream
-git rebase upstream/master
+git rebase upstream/dev
 git push origin my-fix-branch -f
 ```
 
@@ -147,7 +147,7 @@ from the main (upstream) repository:
     git push origin --delete my-fix-branch
     ```
 
-* Check out the master branch:
+* Check out the dev branch:
 
     ```shell
     git checkout dev -f
@@ -159,10 +159,10 @@ from the main (upstream) repository:
     git branch -D my-fix-branch
     ```
 
-* Update your master with the latest upstream version:
+* Update your dev with the latest upstream version:
 
     ```shell
-    git pull --ff upstream master
+    git pull --ff upstream dev
     ```
 ## <a name="started"></a> Getting started
 ### Front-end
