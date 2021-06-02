@@ -60,7 +60,7 @@ Before you submit your pull request consider the following guidelines:
     ```
 
 
-In GitHub, send a pull request to `[aci-frontend/aci-backend]:dev`.
+In GitHub, send a pull request to `[front-end/backend]:dev`.
 If we suggest changes, then:
 
 * Make the required updates.
@@ -88,8 +88,8 @@ Before you submit your pull request consider the following guidelines:
 * [Fork](https://help.github.com/articles/fork-a-repo/) either the front-end, backend or both.
 * [Clone](https://help.github.com/articles/cloning-a-repository/) your copy.
     ```shell
-    git clone https://github.com/YOUR_USERNAME/[aci-frontend/aci-backend].git
-    cd [aci-frontend/aci-backend]/
+    git clone https://github.com/YOUR_USERNAME/[front-end/backend].git
+    cd [front-end/backend]/
     ```
 * After cloning, set a new remote [upstream](https://help.github.com/articles/configuring-a-remote-for-a-fork/) (this helps to keep your fork up to date)
     
@@ -118,7 +118,7 @@ Before you submit your pull request consider the following guidelines:
     git push origin my-fix-branch
     ```
 
-In GitHub, send a pull request to `[aci-frontend/aci-backend]:dev`.
+In GitHub, send a pull request to `[front-end/backend]:dev`.
 If we suggest changes, then:
 
 * Make the required updates.
@@ -165,7 +165,7 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 ## <a name="started"></a> Getting started
-### Frontend
+### Front-end
 Start out by cloning the repository:
 Insiders (please refer to [Contributing as an 'insider'](#insider) for more information)
 ```shell
@@ -175,7 +175,7 @@ git clone https://github.com/ACI-Rental/front-end.git
 Outsiders (please refer to [Contributing as an 'outsider'](#outsider) for more information):
 ```shell
 mkdir ACI && cd ACI
-git clone https://github.com/<YOUR_USERNAME>/aci-frontend.git
+git clone https://github.com/<YOUR_USERNAME>/front-end.git
 ```
 After this, install all the packages:
 ```shell
@@ -195,7 +195,7 @@ git clone https://github.com/ACI-Rental/backend.git
 Outsiders (please refer to [Contributing as an 'outsider'](#outsider) for more information):
 ```shell
 cd ACI
-git clone https://github.com/<YOUR_USERNAME>/aci-backend.git
+git clone https://github.com/<YOUR_USERNAME>/backend.git
 ```
 After this the project can be started using Visual Studio or the dotnet command line. 
 To run multiple services:
