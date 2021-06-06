@@ -18,6 +18,8 @@ When creating a new component we have a strict naming convention to main readabi
 	* The module being used is the default `app.module.ts`
 	* Ex: `ng new component app-student-rental-page --module=app.module.ts`
 
+### Languages
+The front-end supports both English and Dutch. For this purpose there are two files in the `aci-frontend/src/assets/i18n/` directory. The files are json files. The first key is the name of the component it is used for and the second key is the name of the sentence/text. Make sure the text that is supposed to be translates is in both files with the same page key and name key. After this the text can be translates using the translator in the ts files or the translate pipeline in the HTML files.
 
 ## Backend
 ### Quality assurance
