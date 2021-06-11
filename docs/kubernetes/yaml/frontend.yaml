@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: aci-image-service
-        image: siebrum/aci-frontend:latest
+        image: acirentalservice/aci-frontend:latest
         resources:
           requests:
             cpu: 100m
