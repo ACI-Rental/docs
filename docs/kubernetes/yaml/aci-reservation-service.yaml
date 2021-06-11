@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: aci-reservation-service
-        image: siebrum/aci-reservation-service:latest
+        image: acirentalservice/aci-reservation-service:latest
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
