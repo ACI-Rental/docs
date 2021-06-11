@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: aci-api-gateway
-        image: siebrum/aci-api-gateway:latest
+        image: acirentalservice/aci-api-gateway:latest
         resources:
           requests:
             cpu: 100m
