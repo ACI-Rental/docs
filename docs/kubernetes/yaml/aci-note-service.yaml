@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: aci-note-service
-        image: siebrum/aci-note-service:latest
+        image: acirentalservice/aci-note-service:latest
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
