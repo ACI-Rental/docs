@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: aci-product-service
-        image: siebrum/aci-product-service:latest
+        image: acirentalservice/aci-product-service:latest
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
