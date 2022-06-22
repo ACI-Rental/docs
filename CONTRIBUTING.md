@@ -165,56 +165,6 @@ from the main (upstream) repository:
     ```shell
     git pull --ff upstream dev
     ```
-## <a name="started"></a> Getting started
-### Front-end
-Start out by cloning the repository:
-Insiders (please refer to [Contributing as an 'insider'](#insider) for more information)
-```shell
-mkdir ACI && cd ACI
-git clone https://github.com/ACI-Rental/front-end.git
-```
-Outsiders (please refer to [Contributing as an 'outsider'](#outsider) for more information):
-```shell
-mkdir ACI && cd ACI
-git clone https://github.com/<YOUR_USERNAME>/front-end.git
-```
-After this, install all the packages:
-```shell
-npm install
-```
-After this the application can be started using:
-```shell
-npm run
-```
-### Backend
-Start out by cloning the repository:
-Insiders (please refer to [Contributing as an 'insider'](#outsider) for more information):
-```shell
-cd ACI
-git clone https://github.com/ACI-Rental/backend.git
-```
-Outsiders (please refer to [Contributing as an 'outsider'](#outsider) for more information):
-```shell
-cd ACI
-git clone https://github.com/<YOUR_USERNAME>/backend.git
-```
-The backend uses your environment variables to receive the database connection string. Make sure the environment variable is on 'system' level:
-
-![enter image description here](https://i.imgur.com/TExmT0b.png)
-
-The backend tries to replace the string 'DATABASE_NAME' in the connection string to it's service schema. 
-Ex: 
-`Server=<SERVER_URL>;Database=DATABASE_NAME;User ID=<USERNAME>;Password=<PASSWORD>;Trusted_Connection=False;Encrypt=True;` 
-Will become
-`Server=<SERVER_URL>;Database=ProductService;User ID=<USERNAME>;Password=<PASSWORD>;Trusted_Connection=False;Encrypt=True;`
-
-
-After this the project can be started using Visual Studio or the dotnet command line. 
-To run multiple services:
-```
-Right click solution -> Startup project -> Mutliple startup projects -> set the desired microservices to 'Start'
-```
-   
 ## <a name="format"></a> Coding Format
 Please read our [code conventions](https://github.com/ACI-Rental/docs/blob/main/CODE_CONVENTIONS.md) to ensure code quality and readability.
 
